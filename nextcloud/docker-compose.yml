@@ -1,0 +1,9 @@
+version: '3.5'
+
+services:
+  nextcloud:
+    container_name: nextcloud
+    image: eeker/nextcloud
+    ports:
+      - "8080:80"
+    restart: unless-stopped
