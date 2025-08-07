@@ -20,4 +20,4 @@ options:
   message: "Hello world..."
 schema:
   message: "str?"
-image: "ghcr.io/Eek1986/{arch}-addon-nextcloud"
+#image: "ghcr.io/Eek1986/{arch}-addon-nextcloud"
