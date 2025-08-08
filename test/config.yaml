@@ -11,8 +11,11 @@ arch:
   - amd64
   - i386
 init: false
+startup: services
 map:
   - share:rw
+ports:
+  8080/tcp: 8080
 options:
   message: "Hello world..."
 schema:
