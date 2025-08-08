@@ -18,6 +18,15 @@ ports:
   80/tcp: 8080
 options:
   message: "Hello world..."
+  MYSQL_PASSWORD: "password"
+  MYSQL_DATABASE: "nextcloud"
+  MYSQL_USER: "unextcloud:
+  MYSQL_HOST: "addon_core_mariadb"
 schema:
   message: "str?"
+  MYSQL_PASSWORD: "str?"
+  MYSQL_DATABASE: "str?"
+  MYSQL_USER: "str?:
+  MYSQL_HOST: "str?"
+
 #image: "ghcr.io/Eek1986/{arch}-addon-nextcloud"

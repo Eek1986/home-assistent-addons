@@ -1,0 +1,7 @@
+labels:
+  org.opencontainers.image.title: "title"
+  org.opencontainers.image.description: "description"
+  org.opencontainers.image.source: "https://github.com/Eek1986/home-assistent-addons/test"
+  org.opencontainers.image.licenses: "Apache License 2.0"
+args:
+  TEMPIO_VERSION: "2025.08.09"

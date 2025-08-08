@@ -1,0 +1,20 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+name: test
+version: "1.0.0"
+slug: test
+description: description
+url: "https://github.com/Eek1986/home-assistent-addons/test"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+map:
+  - share:rw
+options:
+  message: "Hello world..."
+schema:
+  message: "str?"
+#image: "ghcr.io/home-assistant/{arch}-addon-example"
